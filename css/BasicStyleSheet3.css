@@ -1,0 +1,278 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;}
+
+p {
+    font-size: 16px;
+}
+
+.mason-pic{
+    max-width: 15%;
+    max-height: 15%;
+    margin-bottom: 15px;
+}
+
+.my-icons{
+    font-size: 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 0px; /* Added */
+}
+
+.my-card-headers{
+    font: 28px Montserrat, sans-serif;
+    color: #12E19D;
+}
+
+.my-card-text{
+    font: 22px Montserrat, sans-serif;
+    color: #8E8E8E;
+}
+
+.my-card-text2{
+    font: 22px Montserrat, sans-serif;
+    color: #F4F4F4;
+}
+
+.my-intro-text{
+    font: 26px Montserrat, sans-serif;
+    color: #3C3E41;
+}
+
+.body-margin{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.margin {margin-bottom: 15px;}
+
+.bg-1 {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;}
+
+.bg-2 {
+    background-color: #3C3E41; /* Dark Blue */
+    color: #ffffff;}
+
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;}
+
+.bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;}
+
+.navbar {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 5px;}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;}
+
+/*colorlib-page*/
+#home-page-navbar {
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+
+/* colorlib-main */
+#page-main {
+    width: calc(100% - 300px);
+    float: right;}
+
+#page-aside #position-location{
+    font-size: 14px;
+    margin: 3px;
+    line-height: 0;
+}
+
+/*colorlib-aside*/
+#page-aside {
+    padding-top: 3em;
+    padding-bottom: 40px;
+    float: left;
+    width: 300px;
+    position: fixed;
+    overflow-y: auto;
+    z-index: 1001;
+    background: white;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;}
+
+@media screen and (max-width: 850px ) {
+    #page-aside {
+        top: 0;
+        bottom: 0;
+        padding-top: 4em;
+        width: 200px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    #page-main {
+        width: calc(100% - 200px);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    #page-aside #mp-logo{
+        width: 175px;
+        height: 175px;
+    }
+    #page-aside #mason-name{
+        font: 18px Montserrat, sans-serif;
+    }
+    #page-aside #position-location{
+        font: 9px Montserrat, sans-serif;
+        margin: 3px;
+        line-height: 0;
+    }
+}
+
+@media screen and (max-height: 600px ) {
+    #page-aside {
+        top: 0;
+        bottom: 0;
+        padding-top: 4em;
+        width: 200px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    #page-main {
+        width: calc(100% - 200px);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    #page-aside #mp-logo{
+        width: 175px;
+        height: 175px;
+        margin-top: 0px;
+        margin-bottom: 1px;
+    }
+    #page-aside #mason-name{
+        font-size: 18px;
+    }
+    #page-aside #position-location{
+        font-size: 9px;
+        margin: 30px;
+        line-height: 0;
+    }
+}
+
+@media screen and (max-height: 775px) {
+    #page-aside {
+        top: 0;
+        bottom: 0;
+        padding-top: 4em;
+        overflow-y: scroll;
+    } }
+/*
+#page-aside .position {
+    display: block;
+    margin-bottom: 2em;
+    font-size: 12px;
+    text-transform: uppercase; }
+*/
+
+/* makes navbar disappear when screen is small */
+/*
+@media screen and (max-width: 768px) {
+    #page-aside {
+        width: 300px;
+        -moz-transform: translateX(-300px);
+        -webkit-transform: translateX(-300px);
+        -ms-transform: translateX(-300px);
+        -o-transform: translateX(-300px);
+        transform: translateX(-300px);
+        padding-top: 4em; } }
+ */
+
+/*colorlib-main-menu*/
+#page-aside #page-menu-navigation {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+#page-aside #page-menu-navigation ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;}
+/*
+#page-aside #page-menu-navigation ul {
+    margin: 0 0 2em 0;}
+*/
+#page-aside #page-menu-navigation ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+
+#page-aside #page-menu-navigation ul li a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    position: relative;
+    padding: 10px 0;
+    font-family: "Quicksand", Arial, sans-serif;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+
+#page-aside #page-menu-navigation ul li.active a {
+    color: #7FA5CC; }
+
+#page-aside #page-menu-navigation ul li a:hover {
+    text-decoration: none;
+    color: #0d6efd; }
+
+#page-aside .page-footer {
+    text-align: center;
+    width: 100%; }
+#page-aside .page-footer span {
+    display: block; }
+#page-aside .page-footer ul {
+    padding: 0;
+    margin: 0; }
+#page-aside .page-footer ul li {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    list-style: none; }
+
+.container-wrap {
+    width: 100%;
+    margin: 0 auto; }
+
+/* underline of nav links. not working yet*/
+/*
+#colorlib-aside #colorlib-main-menu ul li a:hover:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1); }
+
+ */
