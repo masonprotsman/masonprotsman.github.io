@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/BasicStyleSheet3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
@@ -21,7 +21,7 @@
     <div class="container-wrap">
         <a href="#"  data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
         <aside id="page-aside" role="complementary">
-            <div class="animate__animated animate__fadeInLeft  animate__delay-1s">
+            <div data-aos="fade-left" data-aos-duration="2500">
                 <div class="text-center">
                     <!-- check class img-responsive & img-square margin -->
                     <img id="mp-logo" src="images/MP_Logo.jpeg" class="img-responsive img-square margin" style="display:inline" alt="MP" width="300" height="300">
@@ -59,7 +59,7 @@
     <section id="home">
         <!-- First Container -->
         <div class="container-fluid bg-1 text-center">
-            <div class="animate__animated animate__fadeInRight">
+            <div data-aos="fade-left" data-aos-duration="2500">
                 <h3 class="margin my-intro-text">Hi, I'm Mason</h3>
                 <img src="images/HeadShot2.jpeg" class="mason-pic img-responsive img-circle margin" style="display:inline" alt="Mason Protsman" width="350" height="350">
                 <h3 class = "my-intro-text">Software Engineer</h3>
@@ -70,7 +70,7 @@
     <section id="about">
         <!-- Second Container -->
         <div class="container-fluid bg-2">
-            <div class="card text-light bg-dark mb-0 animate__animated animate__fadeInRight" style="max-width: 750px">
+            <div class="card text-light bg-dark mb-0" style="max-width: 750px" data-aos="fade-right" data-aos-duration="2500" data-aos-delay="500">
                 <img class="card-img-top" src="images/code-logo1.jpg" alt="Card image cap">
                 <div class="card-header text-center my-card-headers">About Me</div>
                 <div class="card-body">
@@ -83,7 +83,7 @@
     <section id="education">
         <!-- Third Container -->
         <div class="container-fluid bg-1">
-            <div class="card text-light bg-dark mb-0 animate__animated animate__fadeInRight" style="max-width: 750px">
+            <div class="card text-light bg-dark mb-0" style="max-width: 750px" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
                 <img class="card-img-top" src="images/uga-logo3.png" alt="Card image cap">
                 <div class="card-header text-center my-card-headers">Education</div>
                 <div class="card-header text-center my-card-text">University of Georgia <br> BS Computer Science & Data Science Certificate</div>
@@ -97,7 +97,7 @@
     <section id="experience">
         <!-- Forth Container -->
         <div class="container-fluid bg-2 text-center">
-            <div class="card text-light bg-dark mb-0" style="max-width: 750px">
+            <div class="card text-light bg-dark mb-0" style="max-width: 750px" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
                 <img class="card-img-top" src="images/georgia-power-logo2.png" alt="Card image cap">
                 <div class="card-header text-center my-card-headers">Experience</div>
                 <div class="card-header text-center my-card-text">Software Engineer Intern at Georgia Power</div>
@@ -111,7 +111,7 @@
     <section id="contact">
         <!-- Fifth Container -->
         <div class="container-fluid bg-1 text-center">
-            <div class="card text-light bg-dark mb-0" style="max-width: 750px">
+            <div class="card text-light bg-dark mb-0" style="max-width: 750px" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
                 <img class="card-img-top" src="images/contact-logo3.png" alt="Card image cap">
                 <div class="card-header text-center my-card-headers">Contact</div>
                 <div class="card-header text-center my-card-text2">I am eager to take my experience and knowledge and apply them to a software development role. I am confident that my programming skills could be utilized in a variety of positions. Please feel free to contact me using the links below.</div>
@@ -131,6 +131,9 @@
     <footer class="container-fluid bg-4 text-center">
     </footer>
 </div><!-- end:colorlib-main -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init(); </script>
 
 </body>
 </html>
