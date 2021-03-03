@@ -8,8 +8,8 @@ p {
 }
 
 .mason-pic{
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 25%;
+    max-height: 25%;
     margin-bottom: 15px;
 }
 
@@ -62,7 +62,9 @@ p {
 
 .bg-1 {
     background-color: #1abc9c; /* Green */
-    color: #ffffff;}
+    color: #ffffff;
+}
+
 
 .bg-2 {
     background-color: #3C3E41; /* Dark Blue */
@@ -76,9 +78,17 @@ p {
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;}
 
+.container-fluid-home{
+    padding-top: 180px;
+    padding-bottom: 180px;}
+
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;}
+    padding-top: 150px;
+    padding-bottom: 200px;}
+
+.container-fluid-small {
+    padding-top: 150px;
+    padding-bottom: 100px;}
 
 .navbar {
     float: left;
