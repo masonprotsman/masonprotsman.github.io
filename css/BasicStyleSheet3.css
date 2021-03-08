@@ -86,10 +86,6 @@ p {
     padding-top: 150px;
     padding-bottom: 200px;}
 
-.container-fluid-small {
-    padding-top: 150px;
-    padding-bottom: 100px;}
-
 /*
 #navbar {
     float: left;
@@ -263,6 +259,10 @@ p {
         color: #12E19D;
         margin-left: 4px;
         margin-right: 4px;
+    }
+    .container-fluid {
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
