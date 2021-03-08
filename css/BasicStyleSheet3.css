@@ -90,7 +90,8 @@ p {
     padding-top: 150px;
     padding-bottom: 100px;}
 
-.navbar {
+/*
+#navbar {
     float: left;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -102,7 +103,7 @@ p {
 
 .navbar-nav  li a:hover {
     color: #1abc9c !important;}
-
+*/
 /*colorlib-page*/
 #home-page-navbar {
     width: 100%;
@@ -203,6 +204,49 @@ p {
         padding-top: 4em;
         overflow-y: scroll;
     } }
+
+/* mobile */
+@media screen and (max-width: 525px ) {
+    #page-aside {
+        top: 0;
+        bottom: 0;
+        padding-top: 4em;
+        width: 100px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    #page-main {
+        width: calc(100% - 100px);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    #page-aside #mp-logo{
+        width: 75px;
+        height: 75px;
+    }
+    #page-aside #mason-name{
+        font: 10px Montserrat, sans-serif;
+    }
+    #page-aside #position-location{
+        font: 7px Montserrat, sans-serif;
+        margin: 1px;
+        line-height: 0;
+    }
+
+    #page-aside #page-menu-navigation #navbar ul li {
+        font-size: 8px;
+    }
+    .my-icons{
+        font-size: 10px;
+        margin-right: 2px;
+        margin-left: 2px;
+        margin-top: 3px;
+    }
+}
+
+
 /*
 #page-aside .position {
     display: block;
