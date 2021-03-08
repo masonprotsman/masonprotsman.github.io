@@ -244,6 +244,26 @@ p {
         margin-left: 2px;
         margin-top: 3px;
     }
+    .my-card-headers{
+        font: 20px Montserrat, sans-serif;
+        color: #12E19D;
+    }
+
+    .my-card-text{
+        font: 14px Montserrat, sans-serif;
+        color: #8E8E8E;
+    }
+
+    .my-card-text2{
+        font: 14px Montserrat, sans-serif;
+        color: #F4F4F4;
+    }
+    .my-card-links{
+        font: 14px Montserrat, sans-serif;
+        color: #12E19D;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
 }
 
 
