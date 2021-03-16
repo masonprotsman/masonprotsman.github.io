@@ -173,6 +173,9 @@ h3 {
         margin: 3px;
         line-height: 0;
     }
+    .container-fluid .progress-bar-container {
+        padding-left: 50px;
+        padding-right: 50px;}
 }
 
 @media screen and (max-height: 600px ) {
@@ -205,6 +208,9 @@ h3 {
         margin: 30px;
         line-height: 0;
     }
+    .container-fluid .progress-bar-container {
+        padding-left: 25px;
+        padding-right: 25px;}
 }
 
 @media screen and (max-height: 775px) {
