@@ -123,7 +123,9 @@ h3 {
 /* colorlib-main */
 #page-main {
     width: calc(100% - 300px);
-    float: right;}
+    float: right;
+    overflow-x: hidden;
+}
 
 #page-aside #position-location{
     font-size: 14px;
@@ -160,6 +162,7 @@ h3 {
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
         transition: 0.5s;
+        overflow-x: hidden;
     }
     #page-aside #mp-logo{
         width: 175px;
@@ -193,6 +196,7 @@ h3 {
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
         transition: 0.5s;
+        overflow-x: hidden;
     }
     #page-aside #mp-logo{
         width: 175px;
@@ -234,6 +238,7 @@ h3 {
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
         transition: 0.5s;
+        overflow-x: hidden;
     }
     #page-aside #mp-logo{
         width: 75px;
