@@ -4,21 +4,21 @@ const HeroLights = () => (
   <>
     {/* lamp's light */}
     <spotLight
-      position={[0, 5, 6]}
+      position={[0, 0, 6]}
       angle={Math.PI /2}
       penumbra={0.5}
       intensity={100}
       color="white"
     />
     <spotLight
-      position={[-8, 5, 0]}
+      position={[-8, 2, 0]}
       angle={Math.PI /2}
       penumbra={0.5}
       intensity={100}
       color="white"
     />
     <spotLight
-      position={[0, 5, -6]}
+      position={[0, 2, -6]}
       angle={Math.PI /2}
       penumbra={0.5}
       intensity={100}
@@ -32,14 +32,35 @@ const HeroLights = () => (
       color="white"
     />
     <spotLight
-      position={[5, 5, 6]}
+      position={[5, 2, 6]}
       angle={Math.PI /2}
       penumbra={0.5}
       intensity={100}
       color="white"
     />
     <spotLight
-      position={[-5, 5, 6]}
+      position={[-5, 2, 6]}
+      angle={Math.PI /2}
+      penumbra={0.5}
+      intensity={100}
+      color="white"
+    />
+    <spotLight
+      position={[0, -5, 0]}
+      angle={Math.PI /2}
+      penumbra={0.5}
+      intensity={100}
+      color="white"
+    />
+    <spotLight
+      position={[3, -5, -4]}
+      angle={Math.PI /2}
+      penumbra={0.5}
+      intensity={100}
+      color="white"
+    />
+    <spotLight
+      position={[-3, -5, -4]}
       angle={Math.PI /2}
       penumbra={0.5}
       intensity={100}
