@@ -57,7 +57,7 @@ const AppShowcase = () => {
                 AI Coding Assistant for Developers, Built with React Native.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                An app built with React Native & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -65,20 +65,25 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <div className="image-wrapper bg-[#FFEFDB] p-0">
                 <img
                   src={getAssetPath("/images/project2.png")}
                   alt="Library Management Platform"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <h2>Advanced Weather App Delivering Accurate Five-Day Forecasts</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src={getAssetPath("/images/project3.png")} alt="YC Directory App" />
+              <div className="image-wrapper bg-[#FFE7EB] p-0">
+                <img 
+                  src={getAssetPath("/images/project3.png")} 
+                  alt="YC Directory App"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h2>Professional Real Estate Marketing Platform Showcasing Properties</h2>
+              <h2>Professional Real Estate Marketing Platform Showcasing Properties and Driving Engagement</h2>
             </div>
           </div>
         </div>
