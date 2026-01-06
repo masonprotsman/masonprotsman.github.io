@@ -4,6 +4,7 @@ import { words } from "../constants"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import AnimatedCounter from "./AnimatedCounter"
+import { getAssetPath } from "../utils/getAssetPath"
 
 const Hero = () => {
 
@@ -23,7 +24,7 @@ const Hero = () => {
     return (
         <section id="hero" className="relative overflow-hidden">
             <div className='absolute top-0 left-0 z-10'>
-                <img src="/images/bg.png" alt="Hero Image" />
+                <img src={getAssetPath("/images/bg.png")} alt="Hero Image" />
             </div>
             <div className='hero-layout'>
                 {/* Left: hero content */}

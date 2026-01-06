@@ -5,10 +5,11 @@ Command: npx gltfjsx@6.5.3 ai_figure.glb
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import { getAssetPath } from '../../utils/getAssetPath'
 import { useFrame } from '@react-three/fiber'
 
 export function Figure(props) {
-  const { nodes, materials } = useGLTF('/models/ai_figure.glb')
+  const { nodes, materials } = useGLTF(getAssetPath('/models/ai_figure.glb')
   const groupRef = useRef()
   
   // Rotate the figure slowly on the Y-axis
@@ -25,4 +26,4 @@ export function Figure(props) {
   )
 }
 
-useGLTF.preload('/models/ai_figure.glb')
+useGLTF.preload(getAssetPath('/models/ai_figure.glb')

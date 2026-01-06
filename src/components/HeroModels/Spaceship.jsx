@@ -6,9 +6,10 @@ Command: npx gltfjsx@6.5.3 spaceship.glb
 import React, { useRef, useEffect } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
+import { getAssetPath } from '../../utils/getAssetPath'
 
 export function Spaceship(props) {
-  const { nodes, materials } = useGLTF('/models/spaceship.glb')
+  const { nodes, materials } = useGLTF(getAssetPath('/models/spaceship.glb'))
   const groupRef = useRef()
   
   // Set initial rotation to 180 degrees on mount
@@ -37,4 +38,4 @@ export function Spaceship(props) {
   )
 }
 
-useGLTF.preload('/models/spaceship.glb')
+useGLTF.preload(getAssetPath('/models/spaceship.glb'))

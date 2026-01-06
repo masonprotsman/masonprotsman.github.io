@@ -5,9 +5,10 @@ Command: npx gltfjsx@6.5.3 f16.glb
 
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
+import { getAssetPath } from '../../utils/getAssetPath'
 
 export function F16(props) {
-  const { nodes, materials } = useGLTF('/models/f16.glb')
+  const { nodes, materials } = useGLTF(getAssetPath('/models/f16.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0, 0, -3.931]} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
@@ -18,4 +19,4 @@ export function F16(props) {
   )
 }
 
-useGLTF.preload('/models/f16.glb')
+useGLTF.preload(getAssetPath('/models/f16.glb')
