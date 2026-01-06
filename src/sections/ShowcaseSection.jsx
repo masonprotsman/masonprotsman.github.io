@@ -49,9 +49,11 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <a href="https://masonprotsman.github.io/Ecommerce-App/" target="_blank" rel="noopener noreferrer" className="image-wrapper">
-              <img src={getAssetPath("/images/project1.png")} alt="Ryde App Interface" />
-            </a>
+            <div className="image-wrapper">
+              <a href="https://masonprotsman.github.io/Ecommerce-App/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                <img src={getAssetPath("/images/project1.png")} alt="Ryde App Interface" />
+              </a>
+            </div>
             <div className="text-content">
               <h2>
                 AI Coding Assistant for Developers, Built with React Native.
@@ -65,24 +67,28 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <a href="https://masonprotsman.github.io/Weather-Forecast-Pro/" target="_blank" rel="noopener noreferrer" className="image-wrapper bg-[#FFEFDB] p-0">
-                <img
-                  src={getAssetPath("/images/project2.png")}
-                  alt="Library Management Platform"
-                  className="w-full h-full object-cover"
-                />
-              </a>
+              <div className="image-wrapper bg-[#FFEFDB] p-0">
+                <a href="https://masonprotsman.github.io/Weather-Forecast-Pro/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <img
+                    src={getAssetPath("/images/project2.png")}
+                    alt="Library Management Platform"
+                    className="w-full h-full object-cover"
+                  />
+                </a>
+              </div>
               <h2>Advanced Weather App Delivering Accurate Five-Day Forecasts</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <a href="https://masonprotsman.github.io/react-real-estate/" target="_blank" rel="noopener noreferrer" className="image-wrapper bg-[#FFE7EB] p-0">
-                <img 
-                  src={getAssetPath("/images/project3.png")} 
-                  alt="YC Directory App"
-                  className="w-full h-full object-cover"
-                />
-              </a>
+              <div className="image-wrapper bg-[#FFE7EB] p-0">
+                <a href="https://masonprotsman.github.io/react-real-estate/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <img 
+                    src={getAssetPath("/images/project3.png")} 
+                    alt="YC Directory App"
+                    className="w-full h-full object-cover"
+                  />
+                </a>
+              </div>
               <h2>Professional Real Estate Marketing Platform Showcasing Properties and Driving Engagement</h2>
             </div>
           </div>
