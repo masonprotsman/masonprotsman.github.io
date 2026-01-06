@@ -68,6 +68,32 @@ const HeroLights = () => (
     />
     {/* bluish overhead lamp */}
     <spotLight
+      position={[-3, -5, -4]}
+      angle={0.3}
+      penumbra={0.5}
+      intensity={100}
+      color="#4cc9f0"
+    /><spotLight
+      position={[3, -5, -4]}
+      angle={0.3}
+      penumbra={0.5}
+      intensity={100}
+      color="#4cc9f0"
+    />
+    <spotLight
+      position={[-3, -2, -4]}
+      angle={0.3}
+      penumbra={0.5}
+      intensity={100}
+      color="#4cc9f0"
+    /><spotLight
+      position={[3, -2, -4]}
+      angle={0.3}
+      penumbra={0.5}
+      intensity={100}
+      color="#4cc9f0"
+    />
+    <spotLight
       position={[4, 5, 4]}
       angle={0.3}
       penumbra={0.5}
