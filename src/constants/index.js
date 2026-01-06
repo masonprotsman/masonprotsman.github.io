@@ -152,7 +152,7 @@ const expCards = [
     review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: getAssetPath("/images/exp1.png"),
     logoPath: getAssetPath("/images/logo1.png"),
-    title: "Frontend Developer",
+    title: "Software Engineer II",
     date: "Feb 2024 - Aug 2025",
     responsibilities: [
       "Engineered and deployed LVT's advanced live video streaming systems reducing retail theft and vandalism incidents.",
@@ -163,10 +163,10 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Adrian's contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: getAssetPath("/images/exp2.png"),
     logoPath: getAssetPath("/images/logo2.png"),
-    title: "Full Stack Developer",
+    title: "Software Engineer I",
     date: "March 2021 - Feb 2024",
     responsibilities: [
       "Designed and developed the patented Overwatch platform for AI-powered suspect tracking across video feeds.",
@@ -177,10 +177,10 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Adrian's work on Appwrite's mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: getAssetPath("/images/exp3.png"),
     logoPath: getAssetPath("/images/logo3.png"),
-    title: "React Native Developer",
+    title: "Software Engineer Intern",
     date: "May 2017 - Sept 2019",
     responsibilities: [
       "Developed accounting automation tools using C# and VBA, improving efficiency across internal workflows.",
