@@ -1,0 +1,52 @@
+Mason Protsman
+Software Engineer	
+📞 404-731-6991 | ✉ masonprotsman@gmail.com | 🌐 masonprotsman.github.io
+
+Summary
+Dynamic Software Engineer with over 8 years of experience in developing innovative
+solutions for law enforcement and public safety. Proven track record of engineering
+advanced live video streaming systems and AI-powered platforms, achieving substantial
+reductions in theft and enhancing situational awareness. Key accomplishments include
+developing the patented Overwatch platform and integrating real-time monitoring systems.
+Eager to leverage expertise in software development to drive impactful projects that align
+with the goals of prospective employers.
+
+Education
+University of Georgia — B.S. in Computer Science, Data Science Certificate (December 2020)
+
+Technical Skills
+Languages: JavaScript, TypeScript, Python, C#, HTML, CSS, MySQL, VBA	
+Frameworks & Tools: Angular, React, Node.js, Bootstrap, Three.js, WebGL, AWS, GitHub,
+Agile Development
+
+Professional Experience
+Software Engineer II — Axon (Fusus Integration Team, App Store) | 2024–2025
+• Engineered and deployed LVT’s advanced live video streaming systems reducing retail
+theft and vandalism incidents.	
+• Designed and integrated Cognify AI camera networks to enhance real-time monitoring and
+public safety.	
+• Implemented ShotSpotter technology for instant gunshot detection and automated law
+enforcement dispatch.	
+• Developed a Whooster interface for rapid suspect identification using name, address, and
+digital footprint.	
+• Integrated Skydio drone automation for seamless drone dispatch and flight operations.	
+• Built a dynamic credential integration system to streamline multi-platform authentication.
+
+Software Engineer I — Fusus (Angular Development Team) | 2020–2024
+• Designed and developed the patented Overwatch platform for AI-powered suspect
+tracking across video feeds.	
+• Built and maintained a third-party app marketplace to expand platform capabilities and
+improve performance.	
+• Created LiveLink technology to securely connect field mobile devices with dispatch
+through real-time video.	
+• Developed the Buddi interface for device monitoring and management in live law
+enforcement environments.	
+• Engineered Family Watchdog integration for offender tracking and public safety alerts.
+
+Software Engineer Intern — Georgia Power Company (Shared Services Support) | 2017–2019
+• Developed accounting automation tools using C# and VBA, improving efficiency across
+internal workflows.	
+• Built a VBA program to process over 1 million Excel entries for invoice-level expenditure
+analysis.	
+• Optimized C# constructors and functions for enterprise accounting applications.	
+• Collaborated with teams to migrate legacy VBA systems to C# and implemented MySQLbased security access.
