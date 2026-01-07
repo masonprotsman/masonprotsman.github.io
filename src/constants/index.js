@@ -82,12 +82,12 @@ const abilities = [
   {
     imgPath: getAssetPath("/images/chat.png"),
     title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    desc: "Delivering transparency and insight through continuous communication.",
   },
   {
     imgPath: getAssetPath("/images/time.png"),
     title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    desc: "Ensuring projects are completed on schedule, with quality & attention to detail.",
   },
 ];
 
@@ -140,7 +140,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Github Contributor",
     modelPath: getAssetPath("/models/git-svg-transformed.glb"),
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -149,38 +149,38 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: getAssetPath("/images/exp1.png"),
+    review: "Mason led the integration of Skydio drone automation, designing an intuitive frontend interface that streamlined drone launch and flight operations. This implementation enabled seamless dispatch and autonomous flights, markedly enhancing real-time situational awareness, operational efficiency, and rapid response capabilities for First Responders.",
+    imgPath: getAssetPath("/images/slogo.png"),
     logoPath: getAssetPath("/images/logo1.png"),
-    title: "Software Engineer II",
+    title: "Axon - Software Engineer II",
     date: "Feb 2024 - Aug 2025",
     responsibilities: [
       "Engineered and deployed LVT's advanced live video streaming systems reducing retail theft and vandalism incidents.",
       "Designed and integrated Cognify AI camera networks to enhance real-time monitoring and public safety.",
       "Implemented ShotSpotter technology for instant gunshot detection and automated law enforcement dispatch.",
-      "Developed a Whooster interface for rapid suspect identification using name, address, and digital footprint.",
+      "Developed the Buddi interface for device monitoring and management in live law enforcement environments.",
       "Integrated Skydio drone automation for seamless drone dispatch and flight operations.",
     ],
   },
   {
-    review: "Adrian's contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: getAssetPath("/images/exp2.png"),
+    review: "Mason successfully integrated Whooster into the Fūsus ecosystem, enabling efficient identity searches, investigative workflows, and background-check operations. The integration improved data correlation, enhanced situational awareness, and accelerated decision-making during critical investigations.",
+    imgPath: getAssetPath("/images/wlogo.png"),
     logoPath: getAssetPath("/images/logo2.png"),
-    title: "Software Engineer I",
+    title: "Fūsus - Software Engineer I",
     date: "March 2021 - Feb 2024",
     responsibilities: [
       "Designed and developed the patented Overwatch platform for AI-powered suspect tracking across video feeds.",
       "Built and maintained a third-party app marketplace to expand platform capabilities and improve performance.",
       "Created LiveLink technology to securely connect field mobile devices with dispatch through real-time video.",
-      "Developed the Buddi interface for device monitoring and management in live law enforcement environments.",
+      "Developed a Whooster interface for rapid suspect identification using name, address, and digital footprint.",
       "Engineered Family Watchdog integration for offender tracking and public safety alerts.",
     ],
   },
   {
-    review: "Adrian's work on Appwrite's mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: getAssetPath("/images/exp3.png"),
+    review: "Mason demonstrated exceptional creativity and technical expertise, significantly strengthening platform security by eliminating hard-coded data, implementing robust password encryption, and deploying secure backend storage solutions. He designed and built an automated data retrieval system for quarterly audits, driving substantial gains in operational efficiency while reducing system downtime.",
+    imgPath: getAssetPath("/images/sclogo.png"),
     logoPath: getAssetPath("/images/logo3.png"),
-    title: "Software Engineer Intern",
+    title: "Georgia Power - Software Engineer Intern",
     date: "May 2017 - Sept 2019",
     responsibilities: [
       "Developed accounting automation tools using C# and VBA, improving efficiency across internal workflows.",
