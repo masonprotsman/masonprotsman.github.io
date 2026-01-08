@@ -1,8 +1,7 @@
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-
-import Computer from "./Computer";
 import { Cyber } from "../../HeroModels/Cyber";
+import * as THREE from "three";
 
 const ContactExperience = () => {
   return (
@@ -11,7 +10,7 @@ const ContactExperience = () => {
       camera={{ position: [0, 3, 7], fov: 45 }}
       gl={{ alpha: false }}
       onCreated={({ gl }) => {
-        gl.setClearColor('#2414cc')
+        gl.setClearColor('#07045c')
       }}
     >
       <ambientLight intensity={0.5} color="#ffffff" />
@@ -38,10 +37,17 @@ const ContactExperience = () => {
           rotation={[-Math.PI / 2, 0, 0]}
         >
           <planeGeometry args={[30, 30]} />
-          <meshStandardMaterial color="#2414cc" />
+          <meshStandardMaterial color="#07045c" />
         </mesh>
       </group>
-
+    {/* lamp's light */}
+    <spotLight
+      position={[0, 0, 6]}
+      angle={Math.PI /2}
+      penumbra={1}
+      intensity={100}
+      color="white"
+    />
       <group scale={1.5} position={[11, -5, 5]} castShadow>
         <Cyber />
       </group>
