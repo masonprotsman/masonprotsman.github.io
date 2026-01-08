@@ -6,7 +6,14 @@ import { Cyber } from "../../HeroModels/Cyber";
 
 const ContactExperience = () => {
   return (
-    <Canvas shadows camera={{ position: [0, 3, 7], fov: 45 }}>
+    <Canvas 
+      shadows 
+      camera={{ position: [0, 3, 7], fov: 45 }}
+      gl={{ alpha: false }}
+      onCreated={({ gl }) => {
+        gl.setClearColor('#2414cc')
+      }}
+    >
       <ambientLight intensity={0.5} color="#ffffff" />
 
       <directionalLight position={[5, 5, 3]} intensity={2.5} color="#ffffff" />
@@ -27,7 +34,7 @@ const ContactExperience = () => {
       <group scale={[1, 1, 1]}>
         <mesh
           receiveShadow
-          position={[0, -5.5, 0]}
+          position={[0, -4, 10]}
           rotation={[-Math.PI / 2, 0, 0]}
         >
           <planeGeometry args={[30, 30]} />
