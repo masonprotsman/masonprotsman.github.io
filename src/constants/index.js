@@ -154,6 +154,7 @@ const expCards = [
     logoPath: getAssetPath("/images/logo1.png"),
     title: "Axon - Software Engineer II",
     date: "Feb 2024 - Aug 2025",
+    companyUrl: "https://www.axon.com/",
     responsibilities: [
       "Engineered and deployed LVT's advanced live video streaming systems reducing retail theft and vandalism incidents.",
       "Designed and integrated Cognify AI camera networks to enhance real-time monitoring and public safety.",
@@ -168,6 +169,7 @@ const expCards = [
     logoPath: getAssetPath("/images/logo2.png"),
     title: "Fūsus - Software Engineer I",
     date: "March 2021 - Feb 2024",
+    companyUrl: "https://www.fusus.com/",
     responsibilities: [
       "Designed and developed the patented Overwatch platform for AI-powered suspect tracking across video feeds.",
       "Built and maintained a third-party app marketplace to expand platform capabilities and improve performance.",
@@ -182,6 +184,7 @@ const expCards = [
     logoPath: getAssetPath("/images/logo3.png"),
     title: "Georgia Power - Software Engineer Intern",
     date: "May 2017 - Sept 2019",
+    companyUrl: "https://www.georgiapower.com/",
     responsibilities: [
       "Developed accounting automation tools using C# and VBA, improving efficiency across internal workflows.",
       "Built a VBA program to process over 1 million Excel entries for invoice-level expenditure analysis.",

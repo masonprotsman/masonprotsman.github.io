@@ -117,7 +117,10 @@ const Experience = () => {
                       <div className="gradient-line w-1 h-full" />
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
-                      <div className="timeline-logo">
+                      <div 
+                        className="timeline-logo relative z-50 cursor-pointer hover:opacity-80 transition-opacity"
+                        onClick={() => window.open(card.companyUrl, '_blank', 'noopener,noreferrer')}
+                      >
                         <img src={card.logoPath} alt="logo" />
                       </div>
                       <div>
