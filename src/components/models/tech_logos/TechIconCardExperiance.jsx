@@ -7,7 +7,7 @@ const TechIconCardExperience = ({ model }) => {
   const scene = useGLTF(model.modelPath);
 
   useEffect(() => {
-    if (model.name === "Interactive Developer") {
+    if (model.name === "Interactive Experiences") {
       scene.scene.traverse((child) => {
         if (child.isMesh) {
           if (child.name === "Object_5") {
@@ -16,7 +16,18 @@ const TechIconCardExperience = ({ model }) => {
         }
       });
     }
-  }, [scene]);
+    
+    if (model.name === "Blender") {
+      scene.scene.rotation.x = Math.PI / 3;
+      scene.scene.rotation.y = -2.6; 
+      scene.scene.scale.set(1.25, 1.25, 1.25);
+
+    }
+    
+    if (model.name === "Angular") {
+      scene.scene.scale.set(0.55, 0.55, 0.55);
+    }
+  }, [scene, model.name]);
 
   return (
     <Canvas>

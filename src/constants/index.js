@@ -116,34 +116,34 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React",
     modelPath: getAssetPath("/models/react_logo-transformed.glb"),
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
-    modelPath: getAssetPath("/models/python-transformed.glb"),
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: getAssetPath("/models/node-transformed.glb"),
+    name: "Angular",
+    modelPath: getAssetPath("/models/alogo.glb"),
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
-    modelPath: getAssetPath("/models/three.js-transformed.glb"),
-    scale: 0.05,
+    name: "Blender",
+    modelPath: getAssetPath("/models/blogo.glb"),
+    scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Github Contributor",
+    name: "Github",
     modelPath: getAssetPath("/models/git-svg-transformed.glb"),
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
+  },
+  {
+    name: "Interactive Experiences",
+    modelPath: getAssetPath("/models/three.js-transformed.glb"),
+    scale: 0.05,
+    rotation: [0, 0, 0],
   },
 ];
 
