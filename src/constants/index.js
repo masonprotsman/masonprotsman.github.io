@@ -37,7 +37,7 @@ const counterItems = [
   { value: 99, suffix: "%", label: "Client Retention Rate" },
 ];
 
-const logoIconsList = [
+const logoIconsList2 = [
   {
     imgPath: getAssetPath("/images/logos/company-logo-1.png"),
   },
@@ -70,6 +70,61 @@ const logoIconsList = [
   },
   {
     imgPath: getAssetPath("/images/logos/company-logo-11.png"),
+  },
+];
+
+const logoIconsList = [
+  {
+    name: "Axon",
+    imgPath: getAssetPath("/images/axon-logo.png"),
+  },
+  {
+    name: "Axis Communications",
+    imgPath: getAssetPath("/images/axis-logo.png"),
+  },
+  {
+    name: "Bosch",
+    imgPath: getAssetPath("/images/bosch-logo.png"),
+  },
+  {
+    name: "Fusus",
+    imgPath: getAssetPath("/images/fusus-logo.png"),
+  },
+  {
+    name: "Gpc",
+    imgPath: getAssetPath("/images/gpc-logo.png"),
+  },
+  {
+    name: "Motorola",
+    imgPath: getAssetPath("/images/motorolla-logo.png"),
+  },
+  {
+    name: "Genetec",
+    imgPath: getAssetPath("/images/genetec-logo.png"),
+  },
+  {
+    name: "Milestone Systems",
+    imgPath: getAssetPath("/images/milestone-logo.png"),
+  },
+  {
+    name: "Verkada",
+    imgPath: getAssetPath("/images/verkada-logo.png"),
+  },
+  {
+    name: "Ring",
+    imgPath: getAssetPath("/images/ring-logo.png"),
+  },
+  {
+    name: "Avigilon",
+    imgPath: getAssetPath("/images/avigilon-logo.png"),
+  },
+  {
+    name: "DroneSense",
+    imgPath: getAssetPath("/images/dronesense-logo.png"),
+  },
+  {
+    name: "Skydio",
+    imgPath: getAssetPath("/images/slogo.png"),
   },
 ];
 
@@ -278,6 +333,7 @@ export {
   words,
   abilities,
   logoIconsList,
+  logoIconsList2,
   counterItems,
   expCards,
   expLogos,
