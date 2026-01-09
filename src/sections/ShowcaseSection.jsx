@@ -113,43 +113,44 @@ const AppShowcase = () => {
             <div className="project-list-wrapper overflow-hidden">
               <div className="project">
                 <div className="image-wrapper bg-[#E0F7FA] p-0">
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <a href="https://masonprotsman.github.io/Movie-Search-Project/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
                     <img
-                      src={getAssetPath("/images/project-3.png")}
+                      src={getAssetPath("/images/project-6.png")}
                       alt="Project 5"
                       className="w-full h-full object-cover"
                     />
                   </a>
                 </div>
-                <h2>A modern, responsive restaurant website with elegant design and seamless online ordering.</h2>
+                <h2>A real-time movie discovery platform with TMDb integration and personalized favorites.</h2>
+
               </div>
 
               <div className="project">
                 <div className="image-wrapper bg-[#F3E5F5] p-0">
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <a href="https://masonprotsman.github.io/mason-portfolio/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
                     <img 
-                      src={getAssetPath("/images/project-6.png")} 
+                      src={getAssetPath("/images/project-5.png")} 
                       alt="Project 6"
                       className="w-full h-full object-cover"
                     />
                   </a>
                 </div>
-                <h2>A real-time movie discovery platform with TMDb integration and personalized favorites.</h2>
+                <h2>Interactive React portfolio website showcasing projects, skills, and dynamic user experiences.</h2>
               </div>
             </div>
 
             <div className="first-project-wrapper">
               <div className="image-wrapper">
-                <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
-                  <img src={getAssetPath("/images/project-5.png")} alt="Project 4" />
+                <a href="https://masonprotsman.github.io/restaurant-website/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <img src={getAssetPath("/images/project-3.png")} alt="Project 4" />
                 </a>
               </div>
               <div className="text-content">
                 <h2>
-                  Interactive React portfolio website showcasing projects, skills, and dynamic user experiences.
+                  A modern, responsive restaurant website with elegant design and seamless online ordering.
                 </h2>
                 <p className="text-white-50 md:text-xl">
-                  A high-performance React portfolio showcasing clean architecture, polished UI, and seamless user experiences. Built with scalable components and optimized performance to highlight technical expertise.
+                  Intuitive restaurant website featuring polished design, seamless navigation, and integrated online ordering for a smooth customer experience.
                 </p>
               </div>
             </div>
