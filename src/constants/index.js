@@ -277,7 +277,7 @@ const testimonials = [
     mentions: "@larslangaard",
     review:
       "Working with Mason on the Skydio integration was a game-changer for our team. His punctuality and reliability were matched only by his innovative approach to solving technical challenges. He took ownership of the entire frontend architecture and delivered a product that exceeded our expectations in both functionality and user experience.",
-    imgPath: "https://randomuser.me/api/portraits/men/45.jpg",
+    imgPath: "https://randomuser.me/api/portraits/men/83.jpg",
   },
   {
     name: "Tony Robinson",
