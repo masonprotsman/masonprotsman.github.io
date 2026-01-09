@@ -5,7 +5,7 @@ const LogoIcon = ({ icon }) => {
   const getSizeClass = (name) => {
     if (name === "Bosch" || name === "Axon") return "h-8 w-auto"; // Small for Bosch and Axon
     if (name === "Genetec") return "h-8 w-auto"; // Small for Genetec
-    if (name === "Ring") return "h-12 w-auto"; // Larger for Ring
+    if (name === "Ring" || name === "Gpc" || name === "DroneSense") return "h-12 w-auto"; // Larger for Ring
     if (name === "Axis Communications") return "h-20 w-auto"; // Extra large for Axis
     if (name === "Avigilon" || name === "Milestone Systems" || name === "Verkada" || name === "Motorola") {
       return "h-16 w-auto"; // Larger for Avigilon, Milestone, Verkada, Motorola
@@ -14,7 +14,7 @@ const LogoIcon = ({ icon }) => {
   };
 
   const getPaddingClass = (name) => {
-    if (name === "Ring") return "px-2"; // Less horizontal padding for Ring
+    if (name === "Ring") return "px-0 -mx-2"; // No padding and negative margin for Ring
     return ""; // Default padding
   };
 
