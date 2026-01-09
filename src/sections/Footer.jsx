@@ -1,6 +1,14 @@
 import { socialImgs } from "../constants";
 
 const Footer = () => {
+  const handleSocialClick = (name) => {
+    if (name === "linkedin") {
+      window.open("https://www.linkedin.com/in/mason-p-368a91202/", "_blank", "noopener,noreferrer");
+    } else if (name === "email") {
+      window.location.href = "mailto:masonprotsman@gmail.com";
+    }
+  };
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -9,7 +17,11 @@ const Footer = () => {
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
-            <div key={index} className="icon">
+            <div 
+              key={index} 
+              className="icon cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => handleSocialClick(socialImg.name)}
+            >
               <img src={socialImg.imgPath} alt="social icon" />
             </div>
           ))}
