@@ -270,42 +270,42 @@ const testimonials = [
     mentions: "@clindenau",
     review:
       "Mason's contribution to our third-party app marketplace was invaluable. He had this unique ability to break down complex integration requirements and deliver elegant, maintainable solutions. His work ethic was outstanding—always punctual, always prepared, and always willing to go the extra mile to ensure the product was right.",
-    imgPath: getAssetPath("/images/client5.png"),
+    imgPath: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     name: "Lars Langaard",
     mentions: "@larslangaard",
     review:
       "Working with Mason on the Skydio integration was a game-changer for our team. His punctuality and reliability were matched only by his innovative approach to solving technical challenges. He took ownership of the entire frontend architecture and delivered a product that exceeded our expectations in both functionality and user experience.",
-    imgPath: getAssetPath("/images/client3.png"),
+    imgPath: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
     name: "Tony Robinson",
     mentions: "@trobinson",
     review:
       "Mason's work on the Overwatch platform was exceptional. His ability to translate complex AI tracking requirements into a seamless user experience demonstrated both technical depth and creative problem-solving. He consistently delivered high-quality code ahead of schedule and was always the first to volunteer when challenges arose.",
-    imgPath: getAssetPath("/images/client1.png"),
+    imgPath: "https://randomuser.me/api/portraits/men/67.jpg",
   },
   {
     name: "Ammar Haq",
     mentions: "@ahaqaxon",
     review:
       "I had the privilege of collaborating with Mason on multiple integrations at Axon. His ability to quickly understand complex systems and deliver quality solutions was remarkable. He never missed a standup, always had thoughtful insights, and his code reviews showed a deep commitment to excellence. The LVT streaming system he built is rock solid.",
-    imgPath: getAssetPath("/images/client6.png"),
+    imgPath: "https://randomuser.me/api/portraits/men/54.jpg",
   },
   {
     name: "Shimin Guo",
     mentions: "@shiming",
     review:
       "Mason's creativity and technical expertise made our Cognify AI interface a standout feature. He approached every challenge with fresh ideas and delivered production-ready code consistently on time. His deep understanding of both frontend technologies and real-time systems made him an invaluable team member.",
-    imgPath: getAssetPath("/images/client4.png"),
+    imgPath: "https://randomuser.me/api/portraits/women/68.jpg",
   },
   {
     name: "Bill Whiteman",
     mentions: "@bwhitemangpc",
     review:
       "Mason was one of the most dedicated interns I've managed at Georgia Power. His knowledge of C# and database security was impressive for his experience level. What stood out most was his initiative—he identified security vulnerabilities we hadn't considered and implemented solutions that are still in use today. He never missed a deadline and always came prepared.",
-    imgPath: getAssetPath("/images/client2.png"),
+    imgPath: "https://randomuser.me/api/portraits/men/71.jpg",
   },
 
 ];
