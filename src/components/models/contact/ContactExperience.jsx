@@ -8,11 +8,10 @@ const ContactExperience = () => {
     <Canvas 
       shadows 
       camera={{ position: [0, 3, 7], fov: 45 }}
-      gl={{ alpha: false }}
-      onCreated={({ gl }) => {
-        gl.setClearColor('#07045c')
-      }}
+      gl={{ alpha: true }}
+      style={{ background: '#1c1c21' }}
     >
+      <color attach="background" args={['#1c1c21']} />
       <ambientLight intensity={0.5} color="#ffffff" />
 
       <directionalLight position={[5, 5, 3]} intensity={2.5} color="#ffffff" />
@@ -37,7 +36,7 @@ const ContactExperience = () => {
           rotation={[-Math.PI / 2, 0, 0]}
         >
           <planeGeometry args={[30, 30]} />
-          <meshStandardMaterial color="#07045c" />
+          <meshStandardMaterial color="#2d2d38" />
         </mesh>
       </group>
     {/* lamp's light */}
