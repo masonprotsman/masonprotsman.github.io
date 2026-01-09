@@ -6,7 +6,10 @@ const Footer = () => {
       window.open("https://www.linkedin.com/in/mason-p-368a91202/", "_blank", "noopener,noreferrer");
     } else if (name === "email") {
       window.location.href = "mailto:masonprotsman@gmail.com";
+    } else if (name === "github") {
+      window.open("https://github.com/masonprotsman", "_blank", "noopener,noreferrer");
     }
+
   };
 
   return (
