@@ -131,7 +131,7 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: getAssetPath("/images/seo.png"),
-    title: "Quality Focus",
+    title: "Quality Focused",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
