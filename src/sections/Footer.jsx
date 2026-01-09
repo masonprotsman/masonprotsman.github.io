@@ -22,7 +22,11 @@ const Footer = () => {
               className="icon cursor-pointer hover:opacity-80 transition-opacity"
               onClick={() => handleSocialClick(socialImg.name)}
             >
-              <img src={socialImg.imgPath} alt="social icon" />
+              <img 
+                src={socialImg.imgPath} 
+                alt="social icon"
+                className={socialImg.name === "email" ? "scale-50" : ""}
+              />
             </div>
           ))}
         </div>
