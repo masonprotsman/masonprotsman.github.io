@@ -97,7 +97,9 @@ const AppShowcase = () => {
         </div>
 
         {/* Additional Projects - Hidden by Default */}
-        <div className={showMore ? 'block pt-10' : 'hidden'}>
+        <div className={`transition-all duration-700 ease-in-out overflow-hidden ${
+          showMore ? 'max-h-[3000px] opacity-100 pt-10' : 'max-h-0 opacity-0'
+        }`}>
           <div className="showcaselayout">
             <div className="project-list-wrapper overflow-hidden">
               <div className="project">
