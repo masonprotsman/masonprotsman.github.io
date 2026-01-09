@@ -96,19 +96,8 @@ const AppShowcase = () => {
           </div>
         </div>
 
-        {/* See More Button - Full Width */}
-        <div className="w-full relative flex items-center justify-center mt-10 mb-10 px-5 md:px-10">
-          <div className="absolute w-full h-px bg-white opacity-20"></div>
-          <button
-            onClick={() => setShowMore(!showMore)}
-            className="relative px-6 py-2 bg-black-200 text-white font-semibold hover:bg-black-300 transition-all duration-300 z-10"
-          >
-            {showMore ? 'Show Less' : 'See More'}
-          </button>
-        </div>
-
         {/* Additional Projects - Hidden by Default */}
-        <div className={showMore ? 'block' : 'hidden'}>
+        <div className={showMore ? 'block pt-10' : 'hidden'}>
           <div className="showcaselayout">
             <div className="project-list-wrapper overflow-hidden">
               <div className="project">
@@ -155,6 +144,17 @@ const AppShowcase = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* See More Button - Full Width */}
+        <div className="w-full relative flex items-center justify-center mt-10 mb-10 px-5 md:px-10">
+          <div className="absolute w-full h-px bg-white opacity-20"></div>
+          <button
+            onClick={() => setShowMore(!showMore)}
+            className="relative px-6 py-2 bg-black-200 text-white font-semibold hover:bg-black-300 transition-all duration-300 z-10"
+          >
+            {showMore ? 'Show Less' : 'See More'}
+          </button>
         </div>
       </div>
     </div>
