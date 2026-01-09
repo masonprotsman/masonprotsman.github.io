@@ -25,7 +25,7 @@ const Footer = () => {
               <img 
                 src={socialImg.imgPath} 
                 alt="social icon"
-                className={socialImg.name === "email" ? "scale-50" : ""}
+                className={socialImg.name === "email" || socialImg.name === "github" ? "scale-50" : ""}
               />
             </div>
           ))}

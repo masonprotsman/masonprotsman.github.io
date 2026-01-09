@@ -319,6 +319,10 @@ const socialImgs = [
     name: "linkedin",
     imgPath: getAssetPath("/images/linkedin.png"),
   },
+    {
+    name: "github",
+    imgPath: getAssetPath("/images/gh.png")
+  },
 ];
 
 export {
