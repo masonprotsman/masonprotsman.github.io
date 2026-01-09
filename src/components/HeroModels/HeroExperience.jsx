@@ -16,6 +16,7 @@ const HeroExperience = () => {
             minDistance={5}
             minPolarAngle={Math.PI / 5}
             maxPolarAngle={Math.PI / 1.5}
+            enabled={!isMobile}
         />
         <HeroLights />
         <group scale={isMobile ? 0.3 : .5} position={[0, -1, 0]} rotation={[0, -Math.PI /4, 0]}>
