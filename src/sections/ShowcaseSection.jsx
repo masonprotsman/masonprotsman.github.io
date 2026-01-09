@@ -121,7 +121,7 @@ const AppShowcase = () => {
                     />
                   </a>
                 </div>
-                <h2>A modern, responsive restaurant website featuring an elegant design, intuitive navigation, and seamless online reservation functionality to enhance the dining experience.</h2>
+                <h2>A modern, responsive restaurant website with elegant design and seamless online ordering.</h2>
               </div>
 
               <div className="project">
@@ -134,7 +134,7 @@ const AppShowcase = () => {
                     />
                   </a>
                 </div>
-                <h2>A dynamic, real-time movie discovery platform featuring live data integration from The Movie Database (TMDb) and personalized favorites management for a seamless user experience.</h2>
+                <h2>A real-time movie discovery platform with TMDb integration and personalized favorites.</h2>
               </div>
             </div>
 
@@ -146,7 +146,7 @@ const AppShowcase = () => {
               </div>
               <div className="text-content">
                 <h2>
-                  Interactive Data Visualization Dashboard with Real-Time Analytics
+                  Interactive React portfolio website showcasing projects, skills, and dynamic user experiences.
                 </h2>
                 <p className="text-white-50 md:text-xl">
                   A high-performance React portfolio showcasing clean architecture, polished UI, and seamless user experiences. Built with scalable components and optimized performance to highlight technical expertise.
