@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { getAssetPath } from "../utils/getAssetPath";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -7,10 +7,12 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
+  const [showMore, setShowMore] = useState(false);
   const sectionRef = useRef(null);
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
   const ycDirectoryRef = useRef(null);
+  const extraProjectsRef = useRef(null);
 
   useGSAP(() => {
     // Animation for the main section
@@ -90,6 +92,66 @@ const AppShowcase = () => {
                 </a>
               </div>
               <h2>Professional Real Estate Marketing Platform Showcasing Properties and Driving Engagement</h2>
+            </div>
+          </div>
+        </div>
+
+        {/* See More Button - Full Width */}
+        <div className="w-full relative flex items-center justify-center mt-10 mb-10 px-5 md:px-10">
+          <div className="absolute w-full h-px bg-white opacity-20"></div>
+          <button
+            onClick={() => setShowMore(!showMore)}
+            className="relative px-6 py-2 bg-black-200 text-white font-semibold hover:bg-black-300 transition-all duration-300 z-10"
+          >
+            {showMore ? 'Show Less' : 'See More'}
+          </button>
+        </div>
+
+        {/* Additional Projects - Hidden by Default */}
+        <div className={showMore ? 'block' : 'hidden'}>
+          <div className="showcaselayout">
+            <div className="project-list-wrapper overflow-hidden">
+              <div className="project">
+                <div className="image-wrapper bg-[#E0F7FA] p-0">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                    <img
+                      src={getAssetPath("/images/project2.png")}
+                      alt="Project 5"
+                      className="w-full h-full object-cover"
+                    />
+                  </a>
+                </div>
+                <h2>Modern E-Commerce Platform with Seamless Checkout Experience</h2>
+              </div>
+
+              <div className="project">
+                <div className="image-wrapper bg-[#F3E5F5] p-0">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                    <img 
+                      src={getAssetPath("/images/project3.png")} 
+                      alt="Project 6"
+                      className="w-full h-full object-cover"
+                    />
+                  </a>
+                </div>
+                <h2>AI-Powered Task Management System for Enhanced Productivity</h2>
+              </div>
+            </div>
+
+            <div className="first-project-wrapper">
+              <div className="image-wrapper">
+                <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                  <img src={getAssetPath("/images/project1.png")} alt="Project 4" />
+                </a>
+              </div>
+              <div className="text-content">
+                <h2>
+                  Interactive Data Visualization Dashboard with Real-Time Analytics
+                </h2>
+                <p className="text-white-50 md:text-xl">
+                  A comprehensive dashboard built with modern frameworks for visualizing complex data sets in real-time.
+                </p>
+              </div>
             </div>
           </div>
         </div>
