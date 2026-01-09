@@ -409,6 +409,14 @@ section {
   overflow: hidden;
   animation: marquee 60s linear infinite;
 }
+
+/* Faster scrolling on mobile screens */
+@media (max-width: 768px) {
+  .marquee-box {
+    animation: marquee 30s linear infinite;
+  }
+}
+
 .marquee-item {
   float: left;
 }

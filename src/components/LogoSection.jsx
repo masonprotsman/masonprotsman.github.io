@@ -14,7 +14,7 @@ const LogoIcon = ({ icon }) => {
   };
 
   const getPaddingClass = (name) => {
-    if (name === "Ring") return "px-0 -mx-2"; // No padding and negative margin for Ring
+    if (name === "Ring") return "px-0 -mx-12"; // No padding and negative margin for Ring
     return ""; // Default padding
   };
 
