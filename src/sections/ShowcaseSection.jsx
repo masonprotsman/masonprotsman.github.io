@@ -53,7 +53,7 @@ const AppShowcase = () => {
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <a href="https://masonprotsman.github.io/Ecommerce-App/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
-                <img src={getAssetPath("/images/project1.png")} alt="Ryde App Interface" />
+                <img src={getAssetPath("/images/project-7.png")} alt="Ryde App Interface" />
               </a>
             </div>
             <div className="text-content">
@@ -72,7 +72,7 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB] p-0">
                 <a href="https://masonprotsman.github.io/Weather-Forecast-Pro/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
                   <img
-                    src={getAssetPath("/images/project2.png")}
+                    src={getAssetPath("/images/project-8.png")}
                     alt="Library Management Platform"
                     className="w-full h-full object-cover"
                   />
@@ -85,7 +85,7 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFE7EB] p-0">
                 <a href="https://masonprotsman.github.io/react-real-estate/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
                   <img 
-                    src={getAssetPath("/images/project3.png")} 
+                    src={getAssetPath("/images/project-9.png")} 
                     alt="YC Directory App"
                     className="w-full h-full object-cover"
                   />
@@ -115,33 +115,33 @@ const AppShowcase = () => {
                 <div className="image-wrapper bg-[#E0F7FA] p-0">
                   <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
                     <img
-                      src={getAssetPath("/images/project2.png")}
+                      src={getAssetPath("/images/project-3.png")}
                       alt="Project 5"
                       className="w-full h-full object-cover"
                     />
                   </a>
                 </div>
-                <h2>Modern E-Commerce Platform with Seamless Checkout Experience</h2>
+                <h2>A modern, responsive restaurant website featuring an elegant design, intuitive navigation, and seamless online reservation functionality to enhance the dining experience.</h2>
               </div>
 
               <div className="project">
                 <div className="image-wrapper bg-[#F3E5F5] p-0">
                   <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
                     <img 
-                      src={getAssetPath("/images/project3.png")} 
+                      src={getAssetPath("/images/project-6.png")} 
                       alt="Project 6"
                       className="w-full h-full object-cover"
                     />
                   </a>
                 </div>
-                <h2>AI-Powered Task Management System for Enhanced Productivity</h2>
+                <h2>A dynamic, real-time movie discovery platform featuring live data integration from The Movie Database (TMDb) and personalized favorites management for a seamless user experience.</h2>
               </div>
             </div>
 
             <div className="first-project-wrapper">
               <div className="image-wrapper">
                 <a href="#" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
-                  <img src={getAssetPath("/images/project1.png")} alt="Project 4" />
+                  <img src={getAssetPath("/images/project-5.png")} alt="Project 4" />
                 </a>
               </div>
               <div className="text-content">
@@ -149,7 +149,7 @@ const AppShowcase = () => {
                   Interactive Data Visualization Dashboard with Real-Time Analytics
                 </h2>
                 <p className="text-white-50 md:text-xl">
-                  A comprehensive dashboard built with modern frameworks for visualizing complex data sets in real-time.
+                  A high-performance React portfolio showcasing clean architecture, polished UI, and seamless user experiences. Built with scalable components and optimized performance to highlight technical expertise.
                 </p>
               </div>
             </div>
