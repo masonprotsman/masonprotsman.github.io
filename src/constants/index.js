@@ -298,7 +298,7 @@ const testimonials = [
     mentions: "@shiming",
     review:
       "Mason's creativity and technical expertise made our Cognify AI interface a standout feature. He approached every challenge with fresh ideas and delivered production-ready code consistently on time. His deep understanding of both frontend technologies and real-time systems made him an invaluable team member.",
-    imgPath: "https://randomuser.me/api/portraits/women/68.jpg",
+    imgPath: "https://randomuser.me/api/portraits/women/43.jpg",
   },
   {
     name: "Bill Whiteman",
