@@ -53,7 +53,7 @@ const AppShowcase = () => {
         <TitleHeader
           title="Projects"
         />
-        <div className="showcaselayout">
+        <div className="showcaselayout mt-16">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <a href="https://masonprotsman.github.io/Ecommerce-App/" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
