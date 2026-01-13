@@ -211,11 +211,14 @@ const expCards = [
     date: "Feb 2024 - Aug 2025",
     companyUrl: "https://www.axon.com/",
     responsibilities: [
+      "Designed and implemented a robust in-app purchase, credential management, and integration framework enabling secure utilization of third-party premium tools within the Axon ecosystem.",
+      "Collaborated with 85+ third-party vendors to design and deliver integrated features that leveraged partner technologies, driving mutual value for both Axon and third-party users.",
       "Engineered and deployed LVT's advanced live video streaming systems reducing retail theft and vandalism incidents.",
       "Designed and integrated Cognify AI camera networks to enhance real-time monitoring and public safety.",
       "Implemented ShotSpotter technology for instant gunshot detection and automated law enforcement dispatch.",
-      "Developed the Buddi interface for device monitoring and management in live law enforcement environments.",
+      "Developed a Whooster interface for rapid suspect identification using name, address, and digital footprint.",
       "Integrated Skydio drone automation for seamless drone dispatch and flight operations.",
+      "Built a dynamic credential integration system to streamline multi-platform authentication.",
     ],
   },
   {
@@ -241,10 +244,10 @@ const expCards = [
     date: "May 2017 - Sept 2019",
     companyUrl: "https://www.georgiapower.com/",
     responsibilities: [
-      "Developed accounting automation tools using C# and VBA, improving efficiency across internal workflows.",
-      "Built a VBA program to process over 1 million Excel entries for invoice-level expenditure analysis.",
-      "Optimized C# constructors and functions for enterprise accounting applications.",
-      "Collaborated with teams to migrate legacy VBA systems to C# and implemented MySQL-based security access.",
+      "Developed accounting automation tools using C# and MySQL, significantly improving internal workflow efficiency.",
+      "Designed and built C# accounting applications to manage joint-ownership infrastructure and audit business operations, including cost allocation, financial tracking, and compliance reporting.",
+      "Optimized enterprise accounting systems to improve performance, scalability, and maintainability.",
+      "Collaborated cross-functionally to migrate legacy applications to C#, implementing MySQL-based role-based security and access controls.",
     ],
   },
 ];
