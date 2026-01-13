@@ -229,10 +229,11 @@ const expCards = [
     date: "March 2021 - Feb 2024",
     companyUrl: "https://www.fusus.com/",
     responsibilities: [
-      "Designed and developed the patented Overwatch platform for AI-powered suspect tracking across video feeds.",
+      "Engineered the patented Overwatch AI software, utilizing advanced artificial intelligence, physics‑based modeling, and geometric analysis to deliver precise real‑time object tracking.",
       "Built and maintained a third-party app marketplace to expand platform capabilities and improve performance.",
+      "Integrated Hexagon Intergraph I/CAD into the Fusus ecosystem, enabling unified incident management, CAD workflows, mapping, and real-time operational visibility.",
       "Created LiveLink technology to securely connect field mobile devices with dispatch through real-time video.",
-      "Developed a Whooster interface for rapid suspect identification using name, address, and digital footprint.",
+      "Developed the Buddi interface for device monitoring and management in live law enforcement environments.",
       "Engineered Family Watchdog integration for offender tracking and public safety alerts.",
     ],
   },
